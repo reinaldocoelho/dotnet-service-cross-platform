@@ -16,6 +16,9 @@ namespace simple_service_counter
                     s.WhenStarted(ws => ws.Iniciar());
                     s.WhenStopped(ws => ws.Parar());
                 });
+                x.SetDescription("Serviço de apresentação TopShelf.");
+                x.SetDisplayName("simple_service_counter");
+                x.SetServiceName("simple_service_counter");
             });
         }
     }

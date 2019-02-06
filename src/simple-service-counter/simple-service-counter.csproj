@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Topshelf" Version="4.2.0" />
+    <!-- As versões maiores do que esta estao apresentando erro para executar no linux. :-( -->
+    <PackageReference Include="Topshelf" Version="4.1.0.117-develop" />
   </ItemGroup>
 
 </Project>
